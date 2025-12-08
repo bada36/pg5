@@ -1,0 +1,29 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@media screen and (max-width: 704px) {
+    
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.text {
+	font-size: 2rem;
+	opacity: 0;
+	animation: fadein 1s forwards;
+
+}
+
+@keyframes fadein {
+  to {opacity: 1; }
+}
